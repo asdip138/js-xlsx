@@ -1,5 +1,12 @@
 # xlsx
 
+> This fork is created to approve pull requests that are getting lost in
+> [SheetJS/js-xlsx]. I don't have permission to make this fork, but I have
+> [opened an issue] to request such permission.
+
+[SheetJS/js-xlsx]: https://github.com/SheetJS/js-xlsx/pulls
+[opened an issue]: https://github.com/SheetJS/js-xlsx/issues/497
+
 Parser and writer for various spreadsheet formats.  Pure-JS cleanroom
 implementation from official specifications and related documents.
 
