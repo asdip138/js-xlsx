@@ -31,36 +31,16 @@ Source: <http://git.io/xlsx>
 
 ## Installation
 
-With [npm](https://www.npmjs.org/package/xlsx):
+With **npm**:
 
-    npm install xlsx
+    npm install tarwich/js-xlsx
 
-In the browser:
+With **yarn**:
 
-    <script lang="javascript" src="dist/xlsx.core.min.js"></script>
+    yarn add tarwich/js-xlsx
 
-With [bower](http://bower.io/search/?q=js-xlsx):
-
-    bower install js-xlsx
-
-CDNjs automatically pulls the latest version and makes all versions available at
-<http://cdnjs.com/libraries/xlsx>
-
-## Optional Modules
-
-The node version automatically requires modules for additional features.  Some
-of these modules are rather large in size and are only needed in special
-circumstances, so they do not ship with the core.  For browser use, they must
-be included directly:
-
-    <!-- international support from https://github.com/sheetjs/js-codepage -->
-    <script src="dist/cpexcel.js"></script>
-    <!-- ODS support -->
-    <script src="dist/ods.js"></script>
-
-An appropriate version for each dependency is included in the dist/ directory.
-
-The complete single-file version is generated at `dist/xlsx.full.min.js`
+> _NOTE:_ Remember that when adding third-party modules, you should use either a
+          commit hash or version number as in `tarwich/js-xlsx#v0.8.1`
 
 ## ECMAScript 5 Compatibility
 
